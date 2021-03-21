@@ -1,0 +1,120 @@
+body{min-width:100%;}
+*{
+    box-sizing:border-box;
+}
+header{
+    font-family:"Times New Roman";
+    color:rgba(0, 0, 0, 0.76);
+    background-color: cadetblue;
+    font-weight: bold;
+}
+.header-logo {
+    font-size:20px;
+    font-family: fantasy;
+    line-height:65px;
+    display:inline-block;
+    float:left;
+    padding:0 20px
+    }
+.header-menu{
+    width:80%;
+    margin:0 auto;
+    transition: all 0.5s;    
+}
+.menu{
+    float:right;
+    width:60%;
+    text-align:center;
+}
+.btn:hover{
+    background-color: white;
+    opacity:0.3;
+}
+.btn{
+    color:white;
+    display:inline-block;
+    line-height:50px;
+    padding-left:15px;
+}
+.clear{
+    clear:left;
+    clear:right;
+}
+.hp-front{
+    background-image: url(pixta_39237387_M.jpg);
+    background-size:cover;
+    border-bottom:2px solid black;
+    padding-top:100px;
+    padding-bottom:150px;
+}
+.main-contents{
+    width:100%;
+    opacity: 0.7;
+    font-size:40px;
+    text-align: center;
+    margin:0 auto;
+    color:white;
+}
+.contents-setumei{
+    width:50%;
+    margin:0 auto;
+    background-color: rgba(255, 255, 255,0.4);
+    border-radius: 10px;
+    padding:0px 25px 20px 25px;
+    text-align: center;
+    letter-spacing: 15px;
+    font-family:serif;
+    font-size:30px;
+}
+.contents-setumei p{
+    color: tomato;
+    margin-bottom:5px;
+}
+.contents-setumei a{
+    color:teal;
+    margin-top:5px;
+    display:block;
+    transition: all 0.5s;
+}
+.contents-setumei a:hover{
+    background-color: white;
+    opacity:0.3;
+}
+.footer{
+    background-color:cadetblue;
+    border-bottom:2px solid black;
+    padding:25px 0 25px 0;
+}
+.footer-center{
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+}
+.footer-center p{
+    font-size:14px;
+    display:inline-block;
+}
+.footer-center a{
+    color:white;
+    font-weight:bold;
+    display:inline-block;
+    background-color:steelblue;
+    box-shadow:0px 4px black;
+    transition:0.5s;
+}
+.footer a:active{
+    position:relative;
+    top:4px;
+    box-shadow:none;
+}
+.menu-icon{
+    color:white;
+    float:right;
+    display:none;
+    line-height:65px;
+    font-size:25px;
+    padding:0 20px;
+}
+.s-menu{
+    display:none;
+}
